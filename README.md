@@ -37,7 +37,7 @@
   * **即开即览**：支持在市场内直接在线预览完整的 `SKILL.md` 正文，直观查阅触发场景（`whenToUse`）与前置依赖工具清单（`requiredTools`）。
 
 ### 2. 🏷️ 深度适配官方 DeepSeek Harness 插件标签与标准 (Official Standards)
-* **官方权威认证标签（Official Badge）**：
+* **认证标签（Official Badge）**：
   * 自动深度比对官方插件元数据库，针对官方自研旗舰（如 `dsh-better-sidebar`、`dsh-infinite-gen`、`dsh-plugin-agent-workflow`、`modlens` 等）以及高星官方金牌扩展，在列表中自动高亮展示 `<Tag tone="accent">官方</Tag>` 专属认证标签。
 * **多维场景与标签检索矩阵**：
   * **主分类维度**：开发底座（`dev`）、效率工具（`tools`）、多模态与视觉（`models`）、提示词与推理（`prompt`）、工作流自动化（`workflow`）、视觉外观（`ui`）。
