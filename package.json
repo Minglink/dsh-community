@@ -5,17 +5,23 @@
   "keywords": [
     "deepseek",
     "deepseek-harness",
+    "deepseek-harness-plugin",
+    "dsh-plugin",
+    "dsh-extension",
     "cordis",
+    "cordis-plugin",
     "plugin",
     "skill",
-    "market"
+    "market",
+    "plugin-market",
+    "skills-market"
   ],
   "author": "MingLin <minglink@users.noreply.github.com>",
   "license": "MIT",
   "homepage": "https://deepseek.stream",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Minglink/DeepSeek-Harness-Desktop.git"
+    "url": "https://github.com/Minglink/dsh-community.git"
   },
   "type": "module",
   "main": "index.js",
@@ -31,6 +37,7 @@
     "typescript": "^5.8.0"
   },
   "dsh": {
+    "manifestVersion": 1,
     "bundle": {
       "patch": "./cordis.patch.yml"
     },

@@ -541,69 +541,69 @@ window.__ModuleLoader__.load({
 		}
 		var Community_module_css_default = {
 			"accountCopy": "yuD0Fa_accountCopy",
-			"modeTabs": "yuD0Fa_modeTabs",
-			"modal": "yuD0Fa_modal",
-			"dsh-community-skeleton": "yuD0Fa_dsh-community-skeleton",
-			"taskLog": "yuD0Fa_taskLog",
-			"taskLogMetadata": "yuD0Fa_taskLogMetadata",
-			"taskDetails": "yuD0Fa_taskDetails",
-			"facts": "yuD0Fa_facts",
-			"screenshots": "yuD0Fa_screenshots",
-			"notice": "yuD0Fa_notice",
-			"skeletonTitle": "yuD0Fa_skeletonTitle",
-			"targetNote": "yuD0Fa_targetNote",
-			"title": "yuD0Fa_title",
-			"name": "yuD0Fa_name",
-			"skillWhenToUse": "yuD0Fa_skillWhenToUse",
-			"pagination": "yuD0Fa_pagination",
-			"pluginTags": "yuD0Fa_pluginTags",
-			"intro": "yuD0Fa_intro",
-			"taskLogOutput": "yuD0Fa_taskLogOutput",
-			"modalContent": "yuD0Fa_modalContent",
-			"taskLogControls": "yuD0Fa_taskLogControls",
-			"skillTools": "yuD0Fa_skillTools",
-			"search": "yuD0Fa_search",
-			"empty": "yuD0Fa_empty",
-			"panel": "yuD0Fa_panel",
-			"tagSearch": "yuD0Fa_tagSearch",
-			"task": "yuD0Fa_task",
-			"filterTools": "yuD0Fa_filterTools",
-			"rowTitle": "yuD0Fa_rowTitle",
-			"progress": "yuD0Fa_progress",
-			"avatar": "yuD0Fa_avatar",
-			"taskLogPanel": "yuD0Fa_taskLogPanel",
-			"meta": "yuD0Fa_meta",
-			"taskStatus": "yuD0Fa_taskStatus",
-			"readme": "yuD0Fa_readme",
-			"form": "yuD0Fa_form",
-			"detailDescription": "yuD0Fa_detailDescription",
-			"field": "yuD0Fa_field",
-			"actions": "yuD0Fa_actions",
-			"rowBody": "yuD0Fa_rowBody",
-			"tabs": "yuD0Fa_tabs",
-			"description": "yuD0Fa_description",
-			"skeleton": "yuD0Fa_skeleton",
-			"diagnostic": "yuD0Fa_diagnostic",
-			"sectionHead": "yuD0Fa_sectionHead",
-			"skeletonDescription": "yuD0Fa_skeletonDescription",
 			"account": "yuD0Fa_account",
-			"modeSwitch": "yuD0Fa_modeSwitch",
-			"list": "yuD0Fa_list",
-			"filters": "yuD0Fa_filters",
-			"taskLogEntries": "yuD0Fa_taskLogEntries",
-			"head": "yuD0Fa_head",
-			"tools": "yuD0Fa_tools",
-			"problem": "yuD0Fa_problem",
-			"nameButton": "yuD0Fa_nameButton",
-			"skeletonIcon": "yuD0Fa_skeletonIcon",
-			"navigation": "yuD0Fa_navigation",
+			"taskLogPanel": "yuD0Fa_taskLogPanel",
+			"taskLogControls": "yuD0Fa_taskLogControls",
 			"accountLabel": "yuD0Fa_accountLabel",
+			"title": "yuD0Fa_title",
+			"tagSearch": "yuD0Fa_tagSearch",
+			"actions": "yuD0Fa_actions",
+			"skillTools": "yuD0Fa_skillTools",
+			"readme": "yuD0Fa_readme",
+			"rowTitle": "yuD0Fa_rowTitle",
 			"skillRowActions": "yuD0Fa_skillRowActions",
+			"taskDetails": "yuD0Fa_taskDetails",
+			"skeletonIcon": "yuD0Fa_skeletonIcon",
+			"skillWhenToUse": "yuD0Fa_skillWhenToUse",
+			"panel": "yuD0Fa_panel",
+			"targetNote": "yuD0Fa_targetNote",
+			"facts": "yuD0Fa_facts",
+			"filterTools": "yuD0Fa_filterTools",
+			"notice": "yuD0Fa_notice",
+			"tabs": "yuD0Fa_tabs",
+			"taskLogEntries": "yuD0Fa_taskLogEntries",
+			"field": "yuD0Fa_field",
+			"rowBody": "yuD0Fa_rowBody",
 			"rowMeta": "yuD0Fa_rowMeta",
-			"restored": "yuD0Fa_restored",
+			"filters": "yuD0Fa_filters",
+			"skeletonDescription": "yuD0Fa_skeletonDescription",
+			"dsh-community-skeleton": "yuD0Fa_dsh-community-skeleton",
 			"row": "yuD0Fa_row",
+			"intro": "yuD0Fa_intro",
 			"page": "yuD0Fa_page",
-			"artwork": "yuD0Fa_artwork"
+			"pagination": "yuD0Fa_pagination",
+			"progress": "yuD0Fa_progress",
+			"detailDescription": "yuD0Fa_detailDescription",
+			"taskLogMetadata": "yuD0Fa_taskLogMetadata",
+			"tools": "yuD0Fa_tools",
+			"taskLog": "yuD0Fa_taskLog",
+			"search": "yuD0Fa_search",
+			"modal": "yuD0Fa_modal",
+			"navigation": "yuD0Fa_navigation",
+			"empty": "yuD0Fa_empty",
+			"taskStatus": "yuD0Fa_taskStatus",
+			"problem": "yuD0Fa_problem",
+			"meta": "yuD0Fa_meta",
+			"diagnostic": "yuD0Fa_diagnostic",
+			"skeletonTitle": "yuD0Fa_skeletonTitle",
+			"avatar": "yuD0Fa_avatar",
+			"name": "yuD0Fa_name",
+			"head": "yuD0Fa_head",
+			"description": "yuD0Fa_description",
+			"modeSwitch": "yuD0Fa_modeSwitch",
+			"screenshots": "yuD0Fa_screenshots",
+			"nameButton": "yuD0Fa_nameButton",
+			"sectionHead": "yuD0Fa_sectionHead",
+			"pluginTags": "yuD0Fa_pluginTags",
+			"list": "yuD0Fa_list",
+			"restored": "yuD0Fa_restored",
+			"skeleton": "yuD0Fa_skeleton",
+			"modalContent": "yuD0Fa_modalContent",
+			"modeTabs": "yuD0Fa_modeTabs",
+			"task": "yuD0Fa_task",
+			"artwork": "yuD0Fa_artwork",
+			"form": "yuD0Fa_form",
+			"taskLogOutput": "yuD0Fa_taskLogOutput"
 		};
 		//#endregion
 		//#region src/client/CommunityTaskLogPanel.tsx
@@ -2309,20 +2309,27 @@ window.__ModuleLoader__.load({
 													children: [
 														/* @__PURE__ */ (0, react_jsx_runtime.jsxs)("div", {
 															className: Community_module_css_default.rowTitle,
-															children: [/* @__PURE__ */ (0, react_jsx_runtime.jsx)(_deepseek_ai_dsh_client_ui_primitives.Button, {
-																className: Community_module_css_default.nameButton,
-																"aria-label": `${t("details")} · ${plugin.name}`,
-																onClick: () => {
-																	setDetail(intentFor(plugin));
-																},
-																children: /* @__PURE__ */ (0, react_jsx_runtime.jsx)("span", {
-																	className: Community_module_css_default.name,
-																	children: plugin.name
+															children: [
+																/* @__PURE__ */ (0, react_jsx_runtime.jsx)(_deepseek_ai_dsh_client_ui_primitives.Button, {
+																	className: Community_module_css_default.nameButton,
+																	"aria-label": `${t("details")} · ${plugin.name}`,
+																	onClick: () => {
+																		setDetail(intentFor(plugin));
+																	},
+																	children: /* @__PURE__ */ (0, react_jsx_runtime.jsx)("span", {
+																		className: Community_module_css_default.name,
+																		children: plugin.name
+																	})
+																}),
+																installed && /* @__PURE__ */ (0, react_jsx_runtime.jsx)(_deepseek_ai_dsh_client_ui_primitives.Tag, {
+																	tone: "success",
+																	children: t("alreadyInstalled")
+																}),
+																(plugin.source === "official" || plugin.tags?.some((val) => val.toLowerCase() === "official" || val.includes("官方"))) && /* @__PURE__ */ (0, react_jsx_runtime.jsx)(_deepseek_ai_dsh_client_ui_primitives.Tag, {
+																	tone: "accent",
+																	children: t("officialSource")
 																})
-															}), installed && /* @__PURE__ */ (0, react_jsx_runtime.jsx)(_deepseek_ai_dsh_client_ui_primitives.Tag, {
-																tone: "success",
-																children: t("alreadyInstalled")
-															})]
+															]
 														}),
 														plugin.description !== "" && /* @__PURE__ */ (0, react_jsx_runtime.jsx)("p", {
 															className: Community_module_css_default.description,
@@ -2608,6 +2615,10 @@ window.__ModuleLoader__.load({
 																tone: isEnabled ? "success" : "neutral",
 																children: isEnabled ? t("skillEnabled") : t("skillDisabled")
 															}),
+															(skill.author?.toLowerCase().includes("deepseek") || skill.author?.includes("官方") || skill.tags?.some((val) => val.toLowerCase() === "official" || val.includes("官方"))) && /* @__PURE__ */ (0, react_jsx_runtime.jsx)(_deepseek_ai_dsh_client_ui_primitives.Tag, {
+																tone: "accent",
+																children: t("officialSource")
+															}),
 															skill.category !== void 0 && /* @__PURE__ */ (0, react_jsx_runtime.jsx)(_deepseek_ai_dsh_client_ui_primitives.Tag, { children: t(SKILL_CATEGORY_KEYS[skill.category] ?? "skillCatAll") })
 														]
 													}),
@@ -2887,6 +2898,17 @@ window.__ModuleLoader__.load({
 									/* @__PURE__ */ (0, react_jsx_runtime.jsx)("dd", { children: selectedIntent.version || t("latest") }),
 									/* @__PURE__ */ (0, react_jsx_runtime.jsx)("dt", { children: t("packageName") }),
 									/* @__PURE__ */ (0, react_jsx_runtime.jsx)("dd", { children: selectedPlugin?.npmPackage ?? selectedIntent.id }),
+									(selectedPlugin?.tags?.length ?? 0) > 0 && /* @__PURE__ */ (0, react_jsx_runtime.jsxs)(react_jsx_runtime.Fragment, { children: [/* @__PURE__ */ (0, react_jsx_runtime.jsx)("dt", { children: t("tagSearch") }), /* @__PURE__ */ (0, react_jsx_runtime.jsx)("dd", {
+										style: {
+											display: "flex",
+											flexWrap: "wrap",
+											gap: "4px"
+										},
+										children: selectedPlugin?.tags?.map((val) => /* @__PURE__ */ (0, react_jsx_runtime.jsx)(_deepseek_ai_dsh_client_ui_primitives.Tag, {
+											tone: val.toLowerCase() === "official" || val.includes("官方") ? "accent" : "neutral",
+											children: val
+										}, val))
+									})] }),
 									selectedPlugin?.compatibility !== void 0 && /* @__PURE__ */ (0, react_jsx_runtime.jsxs)(react_jsx_runtime.Fragment, { children: [/* @__PURE__ */ (0, react_jsx_runtime.jsx)("dt", { children: t("compatibility") }), /* @__PURE__ */ (0, react_jsx_runtime.jsx)("dd", { children: selectedPlugin.compatibility })] }),
 									selectedPlugin?.harnessVersion !== void 0 && /* @__PURE__ */ (0, react_jsx_runtime.jsxs)(react_jsx_runtime.Fragment, { children: [/* @__PURE__ */ (0, react_jsx_runtime.jsx)("dt", { children: t("compatibility") }), /* @__PURE__ */ (0, react_jsx_runtime.jsx)("dd", { children: selectedPlugin.harnessVersion })] }),
 									(selectedPlugin?.permissions?.length ?? 0) > 0 && /* @__PURE__ */ (0, react_jsx_runtime.jsxs)(react_jsx_runtime.Fragment, { children: [/* @__PURE__ */ (0, react_jsx_runtime.jsx)("dt", { children: t("permissions") }), /* @__PURE__ */ (0, react_jsx_runtime.jsx)("dd", { children: selectedPlugin?.permissions?.join(", ") })] }),
@@ -3241,6 +3263,10 @@ window.__ModuleLoader__.load({
 					const url = new URL("/api/plugins", origin);
 					if (query?.query) url.searchParams.set("query", query.query);
 					if (query?.category) url.searchParams.set("category", query.category);
+					if (query?.tag) url.searchParams.set("tag", query.tag);
+					if (query?.source) url.searchParams.set("source", query.source);
+					if (query?.platform) url.searchParams.set("platform", query.platform);
+					if (query?.sortBy) url.searchParams.set("sortBy", query.sortBy);
 					if (query?.page) url.searchParams.set("page", String(query.page));
 					if (query?.pageSize) url.searchParams.set("pageSize", String(query.pageSize));
 					const res = await fetch(url.toString());

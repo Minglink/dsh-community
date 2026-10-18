@@ -780,6 +780,9 @@ export function CommunitySection({ api, locale }: CommunitySectionProps): ReactN
                       <Button className={css.nameButton} aria-label={`${t('details')} · ${plugin.name}`}
                         onClick={() => { setDetail(intentFor(plugin)) }}><span className={css.name}>{plugin.name}</span></Button>
                       {installed && <Tag tone="success">{t('alreadyInstalled')}</Tag>}
+                      {(plugin.source === 'official' || plugin.tags?.some(val => val.toLowerCase() === 'official' || val.includes('官方'))) && (
+                        <Tag tone="accent">{t('officialSource')}</Tag>
+                      )}
                     </div>
                     {plugin.description !== '' && <p className={css.description}>{plugin.description}</p>}
                     <div className={css.rowMeta}>
@@ -907,6 +910,9 @@ export function CommunitySection({ api, locale }: CommunitySectionProps): ReactN
                       {isInstalled && <Tag tone={isEnabled ? 'success' : 'neutral'}>
                         {isEnabled ? t('skillEnabled') : t('skillDisabled')}
                       </Tag>}
+                      {(skill.author?.toLowerCase().includes('deepseek') || skill.author?.includes('官方') || skill.tags?.some(val => val.toLowerCase() === 'official' || val.includes('官方'))) && (
+                        <Tag tone="accent">{t('officialSource')}</Tag>
+                      )}
                       {skill.category !== undefined && <Tag>{t(SKILL_CATEGORY_KEYS[skill.category] ?? 'skillCatAll')}</Tag>}
                     </div>
                     {skill.description !== '' && <p className={css.description}>{skill.description}</p>}
@@ -1048,6 +1054,11 @@ export function CommunitySection({ api, locale }: CommunitySectionProps): ReactN
         <dt>{t('publisher')}</dt><dd>{selectedPlugin?.author || t('publisherUnknown')}</dd>
         <dt>{t('version')}</dt><dd>{selectedIntent.version || t('latest')}</dd>
         <dt>{t('packageName')}</dt><dd>{selectedPlugin?.npmPackage ?? selectedIntent.id}</dd>
+        {(selectedPlugin?.tags?.length ?? 0) > 0 && <><dt>{t('tagSearch')}</dt><dd style={{ display: 'flex', flexWrap: 'wrap', gap: '4px' }}>
+          {selectedPlugin?.tags?.map(val => (
+            <Tag key={val} tone={val.toLowerCase() === 'official' || val.includes('官方') ? 'accent' : 'neutral'}>{val}</Tag>
+          ))}
+        </dd></>}
         {selectedPlugin?.compatibility !== undefined && <><dt>{t('compatibility')}</dt><dd>{selectedPlugin.compatibility}</dd></>}
         {selectedPlugin?.harnessVersion !== undefined && <><dt>{t('compatibility')}</dt><dd>{selectedPlugin.harnessVersion}</dd></>}
         {(selectedPlugin?.permissions?.length ?? 0) > 0 && <><dt>{t('permissions')}</dt><dd>{selectedPlugin?.permissions?.join(', ')}</dd></>}
