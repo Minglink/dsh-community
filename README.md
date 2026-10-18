@@ -198,26 +198,6 @@ npm run build
 # 或直接执行: node build.js
 ```
 
----
-
-## ❓ 常见问题排查 (FAQ)
-
-<details>
-<summary><b>Q: Web 端访问提示“宿主不可用”或“仅支持预览”？</b></summary>
-A: 在标准 Web 浏览器或非 Electron 环境下运行 DSH 时，受限于浏览器沙箱安全策略，无法直接操作用户本地文件系统或执行 `pnpm`。此时插件会自动进入高可用 Web 降级模式，支持完整的大厅浏览、Markdown SOP 在线解析预览与协议直达链接复制。如需一键静默安装，请搭配 DSH 桌面端运行。
-</details>
-
-<details>
-<summary><b>Q: 如何验证自己的插件能够被本市场打上「官方」认证标签？</b></summary>
-A: 插件在 `package.json` 中的 `keywords` 包含 `deepseek-harness-plugin`、`dsh-plugin`，或在深流中台提交审核时标注为官方来源（`source: 'official'`），即可自动被市场算法识别并授予高亮认证徽章。
-</details>
-
-<details>
-<summary><b>Q: 安装插件后界面没有及时刷新或点亮？</b></summary>
-A: 可以在「任务与日志」面板中查看详细任务进度。若底层涉及 C++ 动态链接库或重度原生依赖变更，可在界面上方点击弹出重载提示，或使用 DSH 快捷键 `Ctrl+R` 执行热重载。
-</details>
-
----
 
 ## 📄 开源许可证 (License)
 
